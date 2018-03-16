@@ -1,4 +1,4 @@
-/*
+﻿/*
 	Nom du module: fakeDB
 	Version: 1.0
 	Auteurs: Xavier Chamberland-Thibeault et Kim Lavoie
@@ -24,29 +24,29 @@ var fakeDB = new function(){
 var DB = 
 {
 		tblArmure:		[
-						 {Nom:"Armure de cuire", 	Type:"Armure", 		CategoriePoids:"Légère", 			Taille:0, 	BonusDexMax:6, 		BonusCA:2,	PoidsKg:3.75},
-						 {Nom:"Armure de cuire", 	Type:"Armure", 		CategoriePoids:"Légère", 			Taille:1, 	BonusDexMax:6, 		BonusCA:2,	PoidsKg:7.5},
-						 {Nom:"Armure de cuire", 	Type:"Armure", 		CategoriePoids:"Légère", 			Taille:2, 	BonusDexMax:6, 		BonusCA:2,	PoidsKg:15},
-						 {Nom:"Cotte de mailles", 	Type:"Armure", 		CategoriePoids:"Intermédiaire", 	Taille:0, 	BonusDexMax:3, 		BonusCA:4,	PoidsKg:10},
-						 {Nom:"Cotte de mailles", 	Type:"Armure", 		CategoriePoids:"Intermédiaire", 	Taille:1, 	BonusDexMax:3, 		BonusCA:4,	PoidsKg:20},
-						 {Nom:"Cotte de mailles", 	Type:"Armure", 		CategoriePoids:"Intermédiaire", 	Taille:2, 	BonusDexMax:3, 		BonusCA:4,	PoidsKg:40},
-						 {Nom:"Harnois", 			Type:"Armure", 		CategoriePoids:"Lourde", 			Taille:0, 	BonusDexMax:1, 		BonusCA:8,	PoidsKg:12.5},
-						 {Nom:"Harnois", 			Type:"Armure", 		CategoriePoids:"Lourde", 			Taille:1, 	BonusDexMax:1, 		BonusCA:8,	PoidsKg:25},
-						 {Nom:"Harnois", 			Type:"Armure", 		CategoriePoids:"Lourde", 			Taille:2, 	BonusDexMax:1, 		BonusCA:8,	PoidsKg:50},
-						 {Nom:"Targe", 				Type:"Bouclier", 	CategoriePoids:"Légère", 			Taille:0, 	BonusDexMax:null, 	BonusCA:1,	PoidsKg:1.25},
-						 {Nom:"Targe", 				Type:"Bouclier", 	CategoriePoids:"Légère", 			Taille:1, 	BonusDexMax:null, 	BonusCA:1,	PoidsKg:2.5},
-						 {Nom:"Targe", 				Type:"Bouclier", 	CategoriePoids:"Légère", 			Taille:2, 	BonusDexMax:null, 	BonusCA:1,	PoidsKg:5},
-						 {Nom:"Écu en acier", 		Type:"Bouclier", 	CategoriePoids:"Intermédiaire", 	Taille:0, 	BonusDexMax:null, 	BonusCA:2,	PoidsKg:3.75},
-						 {Nom:"Écu en acier", 		Type:"Bouclier", 	CategoriePoids:"Intermédiaire", 	Taille:1, 	BonusDexMax:null, 	BonusCA:2,	PoidsKg:7.5},
-						 {Nom:"Écu en acier", 		Type:"Bouclier", 	CategoriePoids:"Intermédiaire", 	Taille:2, 	BonusDexMax:null, 	BonusCA:2,	PoidsKg:15},
-						 {Nom:"Pavois", 			Type:"Bouclier", 	CategoriePoids:"Lourde", 			Taille:0, 	BonusDexMax:2, 		BonusCA:4,	PoidsKg:11.25},
-						 {Nom:"Pavois", 			Type:"Bouclier", 	CategoriePoids:"Lourde", 			Taille:1, 	BonusDexMax:2, 		BonusCA:4,	PoidsKg:22.5},
-						 {Nom:"Pavois", 			Type:"Bouclier", 	CategoriePoids:"Lourde", 			Taille:2, 	BonusDexMax:2, 		BonusCA:4,	PoidsKg:45}
+						 {Nom:"Armure de cuire", 	Type:"Armure", 		CategoriePoids:"Légère", 			CategorieTaille:0, 	BonusDexMax:6, 		BonusCA:2,	PoidsKg:3.75},
+						 {Nom:"Armure de cuire", 	Type:"Armure", 		CategoriePoids:"Légère", 			CategorieTaille:1, 	BonusDexMax:6, 		BonusCA:2,	PoidsKg:7.5},
+						 {Nom:"Armure de cuire", 	Type:"Armure", 		CategoriePoids:"Légère", 			CategorieTaille:2, 	BonusDexMax:6, 		BonusCA:2,	PoidsKg:15},
+						 {Nom:"Cotte de mailles", 	Type:"Armure", 		CategoriePoids:"Intermédiaire", 	CategorieTaille:0, 	BonusDexMax:3, 		BonusCA:4,	PoidsKg:10},
+						 {Nom:"Cotte de mailles", 	Type:"Armure", 		CategoriePoids:"Intermédiaire", 	CategorieTaille:1, 	BonusDexMax:3, 		BonusCA:4,	PoidsKg:20},
+						 {Nom:"Cotte de mailles", 	Type:"Armure", 		CategoriePoids:"Intermédiaire", 	CategorieTaille:2, 	BonusDexMax:3, 		BonusCA:4,	PoidsKg:40},
+						 {Nom:"Harnois", 			Type:"Armure", 		CategoriePoids:"Lourde", 			CategorieTaille:0, 	BonusDexMax:1, 		BonusCA:8,	PoidsKg:12.5},
+						 {Nom:"Harnois", 			Type:"Armure", 		CategoriePoids:"Lourde", 			CategorieTaille:1, 	BonusDexMax:1, 		BonusCA:8,	PoidsKg:25},
+						 {Nom:"Harnois", 			Type:"Armure", 		CategoriePoids:"Lourde", 			CategorieTaille:2, 	BonusDexMax:1, 		BonusCA:8,	PoidsKg:50},
+						 {Nom:"Targe", 				Type:"Bouclier", 	CategoriePoids:"Légère", 			CategorieTaille:0, 	BonusDexMax:null, 	BonusCA:1,	PoidsKg:1.25},
+						 {Nom:"Targe", 				Type:"Bouclier", 	CategoriePoids:"Légère", 			CategorieTaille:1, 	BonusDexMax:null, 	BonusCA:1,	PoidsKg:2.5},
+						 {Nom:"Targe", 				Type:"Bouclier", 	CategoriePoids:"Légère", 			CategorieTaille:2, 	BonusDexMax:null, 	BonusCA:1,	PoidsKg:5},
+						 {Nom:"Écu en acier", 		Type:"Bouclier", 	CategoriePoids:"Intermédiaire", 	CategorieTaille:0, 	BonusDexMax:null, 	BonusCA:2,	PoidsKg:3.75},
+						 {Nom:"Écu en acier", 		Type:"Bouclier", 	CategoriePoids:"Intermédiaire", 	CategorieTaille:1, 	BonusDexMax:null, 	BonusCA:2,	PoidsKg:7.5},
+						 {Nom:"Écu en acier", 		Type:"Bouclier", 	CategoriePoids:"Intermédiaire", 	CategorieTaille:2, 	BonusDexMax:null, 	BonusCA:2,	PoidsKg:15},
+						 {Nom:"Pavois", 			Type:"Bouclier", 	CategoriePoids:"Lourde", 			CategorieTaille:0, 	BonusDexMax:2, 		BonusCA:4,	PoidsKg:11.25},
+						 {Nom:"Pavois", 			Type:"Bouclier", 	CategoriePoids:"Lourde", 			CategorieTaille:1, 	BonusDexMax:2, 		BonusCA:4,	PoidsKg:22.5},
+						 {Nom:"Pavois", 			Type:"Bouclier", 	CategoriePoids:"Lourde", 			CategorieTaille:2, 	BonusDexMax:2, 		BonusCA:4,	PoidsKg:45}
 						],
 		tblArmurePerso:	[
 							// {Personnage:0	,	Armure:0}
 						],
-		tblPerso:		[
+		tblPersonnage:		[
 							/*{
 								Nom: "John",
 								Divinite: 0,
@@ -82,26 +82,26 @@ var DB =
 							*/
 						],
 		tblClasse:		[
-						 {Nom:"Barbare",	DeVie:"1d12",	BonusReflexe:2,		BonusVigueur:5,		BonusVolonté:2,		BonusCompetences:4},
-						 {Nom:"Barde",		DeVie:"1d6",	BonusReflexe:5,		BonusVigueur:2,		BonusVolonté:5,		BonusCompetences:6},
-						 {Nom:"Druide",		DeVie:"1d8",	BonusReflexe:2,		BonusVigueur:5,		BonusVolonté:5,		BonusCompetences:4},
-						 {Nom:"Ensorceleur",DeVie:"1d4",	BonusReflexe:5,		BonusVigueur:2,		BonusVolonté:5,		BonusCompetences:2},
-						 {Nom:"Guerrier",	DeVie:"1d10",	BonusReflexe:2,		BonusVigueur:5,		BonusVolonté:2,		BonusCompetences:2},
-						 {Nom:"Magicien",	DeVie:"1d4",	BonusReflexe:2,		BonusVigueur:2,		BonusVolonté:5,		BonusCompetences:2},
-						 {Nom:"Moine",		DeVie:"1d8",	BonusReflexe:5,		BonusVigueur:5,		BonusVolonté:5,		BonusCompetences:4},
-						 {Nom:"Paladin",	DeVie:"1d10",	BonusReflexe:2,		BonusVigueur:5,		BonusVolonté:2,		BonusCompetences:2},
-						 {Nom:"Prêtre",		DeVie:"1d8",	BonusReflexe:2,		BonusVigueur:5,		BonusVolonté:5,		BonusCompetences:2},
-						 {Nom:"Rôdeur",		DeVie:"1d8",	BonusReflexe:5,		BonusVigueur:5,		BonusVolonté:2,		BonusCompetences:6},
-						 {Nom:"Roublard",	DeVie:"1d6",	BonusReflexe:5,		BonusVigueur:2,		BonusVolonté:2,		BonusCompetences:8}
+						 {Nom:"Barbare",	DeVie:"1d12",	BonusReflexe:2,		BonusVigueur:5,		BonusVolonte:2,		BonusCompetences:4},
+						 {Nom:"Barde",		DeVie:"1d6",	BonusReflexe:5,		BonusVigueur:2,		BonusVolonte:5,		BonusCompetences:6},
+						 {Nom:"Druide",		DeVie:"1d8",	BonusReflexe:2,		BonusVigueur:5,		BonusVolonte:5,		BonusCompetences:4},
+						 {Nom:"Ensorceleur",DeVie:"1d4",	BonusReflexe:5,		BonusVigueur:2,		BonusVolonte:5,		BonusCompetences:2},
+						 {Nom:"Guerrier",	DeVie:"1d10",	BonusReflexe:2,		BonusVigueur:5,		BonusVolonte:2,		BonusCompetences:2},
+						 {Nom:"Magicien",	DeVie:"1d4",	BonusReflexe:2,		BonusVigueur:2,		BonusVolonte:5,		BonusCompetences:2},
+						 {Nom:"Moine",		DeVie:"1d8",	BonusReflexe:5,		BonusVigueur:5,		BonusVolonte:5,		BonusCompetences:4},
+						 {Nom:"Paladin",	DeVie:"1d10",	BonusReflexe:2,		BonusVigueur:5,		BonusVolonte:2,		BonusCompetences:2},
+						 {Nom:"Prêtre",		DeVie:"1d8",	BonusReflexe:2,		BonusVigueur:5,		BonusVolonte:5,		BonusCompetences:2},
+						 {Nom:"Rôdeur",		DeVie:"1d8",	BonusReflexe:5,		BonusVigueur:5,		BonusVolonte:2,		BonusCompetences:6},
+						 {Nom:"Roublard",	DeVie:"1d6",	BonusReflexe:5,		BonusVigueur:2,		BonusVolonte:2,		BonusCompetences:8}
 						],
 		tblRace:		[
-						 {Nom:"Humain",			Taille:1,	AgeAdulte:15, 	AgeAvance:53,	Langue:"Commun"},
-						 {Nom:"Demie-elfe",		Taille:1,	AgeAdulte:20, 	AgeAvance:93,	Langue:"Commun|Elfe"},
-						 {Nom:"Demi-orque",		Taille:1,	AgeAdulte:14, 	AgeAvance:45,	Langue:"Commun|Orque"},
-						 {Nom:"Elfe",			Taille:1,	AgeAdulte:110, 	AgeAvance:350,	Langue:"Commun|Elfe"},
-						 {Nom:"Gnome",			Taille:0,	AgeAdulte:40, 	AgeAvance:200,	Langue:"Commun|Gnome"},
-						 {Nom:"Halfelin",		Taille:0,	AgeAdulte:20, 	AgeAvance:100,	Langue:"Commun|Halfelin"},
-						 {Nom:"Nain",			Taille:1,	AgeAdulte:40, 	AgeAvance:250,	Langue:"Commun|Nain"}
+						 {Nom:"Humain",			CategorieTaille:1,	AgeAdulte:15, 	AgeAvance:53,	Langues:"Commun"},
+						 {Nom:"Demie-elfe",		CategorieTaille:1,	AgeAdulte:20, 	AgeAvance:93,	Langues:"Commun|Elfe"},
+						 {Nom:"Demi-orque",		CategorieTaille:1,	AgeAdulte:14, 	AgeAvance:45,	Langues:"Commun|Orque"},
+						 {Nom:"Elfe",			CategorieTaille:1,	AgeAdulte:110, 	AgeAvance:350,	Langues:"Commun|Elfe"},
+						 {Nom:"Gnome",			CategorieTaille:0,	AgeAdulte:40, 	AgeAvance:200,	Langues:"Commun|Gnome"},
+						 {Nom:"Halfelin",		CategorieTaille:0,	AgeAdulte:20, 	AgeAvance:100,	Langues:"Commun|Halfelin"},
+						 {Nom:"Nain",			CategorieTaille:1,	AgeAdulte:40, 	AgeAvance:250,	Langues:"Commun|Nain"}
 						],
 		tblBonusRace:	[
 						 {Race:0,	Caracteristique:"Competences",	Bonus:4},
@@ -118,42 +118,42 @@ var DB =
 						 {Race:6,	Caracteristique:"Charisme",		Bonus:-2}
 						],
 		tblArme:		[
-					 	 {Nom:"Dague",					Categorie:"Courante",	Type:"Corps à corps",	DeuxMains:false,	Taille:0,	Degats:"1d3"},
-						 {Nom:"Dague",					Categorie:"Courante",	Type:"Corps à corps",	DeuxMains:false,	Taille:1,	Degats:"1d4"},
-						 {Nom:"Dague",					Categorie:"Courante",	Type:"Corps à corps",	DeuxMains:false,	Taille:2,	Degats:"1d6"},
-						 {Nom:"Masse d'armes lourde",	Categorie:"Courante",	Type:"Corps à corps",	DeuxMains:false,	Taille:0,	Degats:"1d6"},
-						 {Nom:"Masse d'armes lourde",	Categorie:"Courante",	Type:"Corps à corps",	DeuxMains:false,	Taille:1,	Degats:"1d8"},
-						 {Nom:"Masse d'armes lourde",	Categorie:"Courante",	Type:"Corps à corps",	DeuxMains:false,	Taille:2,	Degats:"1d10"},
-						 {Nom:"Lance",					Categorie:"Courante",	Type:"Corps à corps",	DeuxMains:true,		Taille:0,	Degats:"1d6"},
-						 {Nom:"Lance",					Categorie:"Courante",	Type:"Corps à corps",	DeuxMains:true,		Taille:1,	Degats:"1d8"},
-						 {Nom:"Lance",					Categorie:"Courante",	Type:"Corps à corps",	DeuxMains:true,		Taille:2,	Degats:"1d10"},
-						 {Nom:"Arbalète légère",		Categorie:"Courante",	Type:"Distance",		DeuxMains:true,		Taille:0,	Degats:"1d6"},
-						 {Nom:"Arbalète légère",		Categorie:"Courante",	Type:"Distance",		DeuxMains:true,		Taille:1,	Degats:"1d8"},
-						 {Nom:"Arbalète légère",		Categorie:"Courante",	Type:"Distance",		DeuxMains:true,		Taille:2,	Degats:"1d10"},
-						 {Nom:"Hachette",				Categorie:"Guerre",		Type:"Corps à corps",	DeuxMains:false,	Taille:0,	Degats:"1d4"},
-						 {Nom:"Hachette",				Categorie:"Guerre",		Type:"Corps à corps",	DeuxMains:false,	Taille:1,	Degats:"1d6"},
-						 {Nom:"Hachette",				Categorie:"Guerre",		Type:"Corps à corps",	DeuxMains:false,	Taille:2,	Degats:"1d8"},
-						 {Nom:"Fléau d'arme léger",		Categorie:"Guerre",		Type:"Corps à corps",	DeuxMains:false,	Taille:0,	Degats:"1d6"},
-						 {Nom:"Fléau d'arme léger",		Categorie:"Guerre",		Type:"Corps à corps",	DeuxMains:false,	Taille:1,	Degats:"1d8"},
-						 {Nom:"Fléau d'arme léger",		Categorie:"Guerre",		Type:"Corps à corps",	DeuxMains:false,	Taille:2,	Degats:"1d10"},
-						 {Nom:"Épée à deux mains",		Categorie:"Guerre",		Type:"Corps à corps",	DeuxMains:true,		Taille:0,	Degats:"1d10"},
-						 {Nom:"Épée à deux mains",		Categorie:"Guerre",		Type:"Corps à corps",	DeuxMains:true,		Taille:1,	Degats:"2d6"},
-						 {Nom:"Épée à deux mains",		Categorie:"Guerre",		Type:"Corps à corps",	DeuxMains:true,		Taille:2,	Degats:"2d8"},
-						 {Nom:"Arc long",				Categorie:"Guerre",		Type:"Distnace",		DeuxMains:true,		Taille:0,	Degats:"1d6"},
-						 {Nom:"Arc long",				Categorie:"Guerre",		Type:"Distnace",		DeuxMains:true,		Taille:1,	Degats:"1d8"},
-						 {Nom:"Arc long",				Categorie:"Guerre",		Type:"Distnace",		DeuxMains:true,		Taille:2,	Degats:"1d10"},
-						 {Nom:"Nunchaku",				Categorie:"Exotique",	Type:"Corps à corps",	DeuxMains:false,	Taille:0,	Degats:"1d4"},
-						 {Nom:"Nunchaku",				Categorie:"Exotique",	Type:"Corps à corps",	DeuxMains:false,	Taille:1,	Degats:"1d6"},
-						 {Nom:"Nunchaku",				Categorie:"Exotique",	Type:"Corps à corps",	DeuxMains:false,	Taille:2,	Degats:"1d8"},
-						 {Nom:"Hache de guerre naine",	Categorie:"Exotique",	Type:"Corps à corps",	DeuxMains:false,	Taille:0,	Degats:"1d8"},
-						 {Nom:"Hache de guerre naine",	Categorie:"Exotique",	Type:"Corps à corps",	DeuxMains:false,	Taille:1,	Degats:"1d10"},
-						 {Nom:"Hache de guerre naine",	Categorie:"Exotique",	Type:"Corps à corps",	DeuxMains:false,	Taille:2,	Degats:"1d12"},
-						 {Nom:"Chaîne cloutée",			Categorie:"Exotique",	Type:"Corps à corps",	DeuxMains:true,		Taille:0,	Degats:"1d6"},
-						 {Nom:"Chaîne cloutée",			Categorie:"Exotique",	Type:"Corps à corps",	DeuxMains:true,		Taille:1,	Degats:"2d4"},
-						 {Nom:"Chaîne cloutée",			Categorie:"Exotique",	Type:"Corps à corps",	DeuxMains:true,		Taille:2,	Degats:"2d6"},
-						 {Nom:"Shuriken",				Categorie:"Exotique",	Type:"Distance",		DeuxMains:false,	Taille:0,	Degats:"1"},
-						 {Nom:"Shuriken",				Categorie:"Exotique",	Type:"Distance",		DeuxMains:false,	Taille:1,	Degats:"1d2"},
-						 {Nom:"Shuriken",				Categorie:"Exotique",	Type:"Distance",		DeuxMains:false,	Taille:2,	Degats:"1d3"}
+					 	 {Nom:"Dague",					Categorie:"Courante",	Type:"Corps à corps",	DeuxMains:false,	CategorieTaille:0,	Degats:"1d3"},
+						 {Nom:"Dague",					Categorie:"Courante",	Type:"Corps à corps",	DeuxMains:false,	CategorieTaille:1,	Degats:"1d4"},
+						 {Nom:"Dague",					Categorie:"Courante",	Type:"Corps à corps",	DeuxMains:false,	CategorieTaille:2,	Degats:"1d6"},
+						 {Nom:"Masse d'armes lourde",	Categorie:"Courante",	Type:"Corps à corps",	DeuxMains:false,	CategorieTaille:0,	Degats:"1d6"},
+						 {Nom:"Masse d'armes lourde",	Categorie:"Courante",	Type:"Corps à corps",	DeuxMains:false,	CategorieTaille:1,	Degats:"1d8"},
+						 {Nom:"Masse d'armes lourde",	Categorie:"Courante",	Type:"Corps à corps",	DeuxMains:false,	CategorieTaille:2,	Degats:"1d10"},
+						 {Nom:"Lance",					Categorie:"Courante",	Type:"Corps à corps",	DeuxMains:true,		CategorieTaille:0,	Degats:"1d6"},
+						 {Nom:"Lance",					Categorie:"Courante",	Type:"Corps à corps",	DeuxMains:true,		CategorieTaille:1,	Degats:"1d8"},
+						 {Nom:"Lance",					Categorie:"Courante",	Type:"Corps à corps",	DeuxMains:true,		CategorieTaille:2,	Degats:"1d10"},
+						 {Nom:"Arbalète légère",		Categorie:"Courante",	Type:"Distance",		DeuxMains:true,		CategorieTaille:0,	Degats:"1d6"},
+						 {Nom:"Arbalète légère",		Categorie:"Courante",	Type:"Distance",		DeuxMains:true,		CategorieTaille:1,	Degats:"1d8"},
+						 {Nom:"Arbalète légère",		Categorie:"Courante",	Type:"Distance",		DeuxMains:true,		CategorieTaille:2,	Degats:"1d10"},
+						 {Nom:"Hachette",				Categorie:"Guerre",		Type:"Corps à corps",	DeuxMains:false,	CategorieTaille:0,	Degats:"1d4"},
+						 {Nom:"Hachette",				Categorie:"Guerre",		Type:"Corps à corps",	DeuxMains:false,	CategorieTaille:1,	Degats:"1d6"},
+						 {Nom:"Hachette",				Categorie:"Guerre",		Type:"Corps à corps",	DeuxMains:false,	CategorieTaille:2,	Degats:"1d8"},
+						 {Nom:"Fléau d'arme léger",		Categorie:"Guerre",		Type:"Corps à corps",	DeuxMains:false,	CategorieTaille:0,	Degats:"1d6"},
+						 {Nom:"Fléau d'arme léger",		Categorie:"Guerre",		Type:"Corps à corps",	DeuxMains:false,	CategorieTaille:1,	Degats:"1d8"},
+						 {Nom:"Fléau d'arme léger",		Categorie:"Guerre",		Type:"Corps à corps",	DeuxMains:false,	CategorieTaille:2,	Degats:"1d10"},
+						 {Nom:"Épée à deux mains",		Categorie:"Guerre",		Type:"Corps à corps",	DeuxMains:true,		CategorieTaille:0,	Degats:"1d10"},
+						 {Nom:"Épée à deux mains",		Categorie:"Guerre",		Type:"Corps à corps",	DeuxMains:true,		CategorieTaille:1,	Degats:"2d6"},
+						 {Nom:"Épée à deux mains",		Categorie:"Guerre",		Type:"Corps à corps",	DeuxMains:true,		CategorieTaille:2,	Degats:"2d8"},
+						 {Nom:"Arc long",				Categorie:"Guerre",		Type:"Distnace",		DeuxMains:true,		CategorieTaille:0,	Degats:"1d6"},
+						 {Nom:"Arc long",				Categorie:"Guerre",		Type:"Distnace",		DeuxMains:true,		CategorieTaille:1,	Degats:"1d8"},
+						 {Nom:"Arc long",				Categorie:"Guerre",		Type:"Distnace",		DeuxMains:true,		CategorieTaille:2,	Degats:"1d10"},
+						 {Nom:"Nunchaku",				Categorie:"Exotique",	Type:"Corps à corps",	DeuxMains:false,	CategorieTaille:0,	Degats:"1d4"},
+						 {Nom:"Nunchaku",				Categorie:"Exotique",	Type:"Corps à corps",	DeuxMains:false,	CategorieTaille:1,	Degats:"1d6"},
+						 {Nom:"Nunchaku",				Categorie:"Exotique",	Type:"Corps à corps",	DeuxMains:false,	CategorieTaille:2,	Degats:"1d8"},
+						 {Nom:"Hache de guerre naine",	Categorie:"Exotique",	Type:"Corps à corps",	DeuxMains:false,	CategorieTaille:0,	Degats:"1d8"},
+						 {Nom:"Hache de guerre naine",	Categorie:"Exotique",	Type:"Corps à corps",	DeuxMains:false,	CategorieTaille:1,	Degats:"1d10"},
+						 {Nom:"Hache de guerre naine",	Categorie:"Exotique",	Type:"Corps à corps",	DeuxMains:false,	CategorieTaille:2,	Degats:"1d12"},
+						 {Nom:"Chaîne cloutée",			Categorie:"Exotique",	Type:"Corps à corps",	DeuxMains:true,		CategorieTaille:0,	Degats:"1d6"},
+						 {Nom:"Chaîne cloutée",			Categorie:"Exotique",	Type:"Corps à corps",	DeuxMains:true,		CategorieTaille:1,	Degats:"2d4"},
+						 {Nom:"Chaîne cloutée",			Categorie:"Exotique",	Type:"Corps à corps",	DeuxMains:true,		CategorieTaille:2,	Degats:"2d6"},
+						 {Nom:"Shuriken",				Categorie:"Exotique",	Type:"Distance",		DeuxMains:false,	CategorieTaille:0,	Degats:"1"},
+						 {Nom:"Shuriken",				Categorie:"Exotique",	Type:"Distance",		DeuxMains:false,	CategorieTaille:1,	Degats:"1d2"},
+						 {Nom:"Shuriken",				Categorie:"Exotique",	Type:"Distance",		DeuxMains:false,	CategorieTaille:2,	Degats:"1d3"}
 						],
 		tblArmePerso:	[
 							//{Personnage:0	,		Arme:0}
@@ -204,18 +204,18 @@ var DB =
 						 {Nom:"Grand", Abreviation:"G", 	PoidsMinKg:226, 	PoidsMaxKg:4000, 	TailleMinCm:244, 	TailleMaxCm:488}
 						],
 		tblAlignement:	[
-						 {Moral:"Loyal",		Ethique:"Bon",		Abreviation:"LB"},
-						 {Moral:"Neutre",		Ethique:"Bon",		Abreviation:"NB"},
-						 {Moral:"Chaotique",	Ethique:"Bon",		Abreviation:"CB"},
-						 {Moral:"Loyal",		Ethique:"Neutre",	Abreviation:"LN"},
-						 {Moral:"Neutre",		Ethique:"Neutre",	Abreviation:"N"},
-						 {Moral:"Chaotique",	Ethique:"Neutre",	Abreviation:"CN"},
-						 {Moral:"Loyal",		Ethique:"Mauvais",	Abreviation:"LM"},
-						 {Moral:"Neutre",		Ethique:"Mauvais",	Abreviation:"NM"},
-						 {Moral:"Chaotique",	Ethique:"Mauvais",	Abreviation:"CM"}
+						 {Morale:"Loyal",		Ethique:"Bon",		Abreviation:"LB"},
+						 {Morale:"Neutre",		Ethique:"Bon",		Abreviation:"NB"},
+						 {Morale:"Chaotique",	Ethique:"Bon",		Abreviation:"CB"},
+						 {Morale:"Loyal",		Ethique:"Neutre",	Abreviation:"LN"},
+						 {Morale:"Neutre",		Ethique:"Neutre",	Abreviation:"N"},
+						 {Morale:"Chaotique",	Ethique:"Neutre",	Abreviation:"CN"},
+						 {Morale:"Loyal",		Ethique:"Mauvais",	Abreviation:"LM"},
+						 {Morale:"Neutre",		Ethique:"Mauvais",	Abreviation:"NM"},
+						 {Morale:"Chaotique",	Ethique:"Mauvais",	Abreviation:"CM"}
 						],
 		tblJoueur:		[
-							// {NomJoueur:"bob123",		Password:"1Pwd!"}
+							// {NomJoueur:"bob123",		MotDePasse:"1Pwd!"}
 						]
 };
 
@@ -267,19 +267,19 @@ this.vueInfosGenerales = function(idPerso)
 	var dataBase = JSON.parse(localStorage.getItem("DB"));
 	var perso = {};
 	
-	perso["Nom"] = dataBase.tblPerso[idPerso].Nom;
-	perso["Alignement"] = dataBase.tblAlignement[database.tblPerso[idPerso].Alignememt];
-	perso["NomJoueur"] = dataBase.tblJoueur[dataBase.tblPerso[idPerso].Joueur].NomJoueur;
-	perso["Niveau"] = dataBase.tblPerso[idPerso].Niveau;
-	perso["Divinite"] = dataBase.tblDivinite[dataBase.tblPerso[idPerso].Divinite].Nom;
-	perso["Race"] = dataBase.tblRace[dataBase.tblPerso[idPerso].Race].Nom;
-	perso["CategorieTaille"] = dataBase.tblCategorieTaille[dataBase.tblPerso[idPerso].CategorieTaille].Nom;
-	perso["Taille"] = dataBase.tblPerso[idPerso].Taille;
-	perso["Genre"] = dataBase.tblPerso[idPerso].Genre;
-	perso["Age"] = dataBase.tblPerso[idPerso].Age;
-	perso["Poids"] = dataBase.tblPerso[idPerso].Poids;
-	perso["Yeux"] = dataBase.tblPerso[idPerso].Yeux;
-	perso["Cheveux"] = dataBase.tblPerso[idPerso].Cheveux;
+	perso["Nom"] = dataBase.tblPersonnage[idPerso].Nom;
+	perso["Alignement"] = dataBase.tblAlignement[database.tblPersonnage[idPerso].Alignememt];
+	perso["NomJoueur"] = dataBase.tblJoueur[dataBase.tblPersonnage[idPerso].Joueur].NomJoueur;
+	perso["Niveau"] = dataBase.tblPersonnage[idPerso].Niveau;
+	perso["Divinite"] = dataBase.tblDivinite[dataBase.tblPersonnage[idPerso].Divinite].Nom;
+	perso["Race"] = dataBase.tblRace[dataBase.tblPersonnage[idPerso].Race].Nom;
+	perso["CategorieTaille"] = dataBase.tblCategorieTaille[dataBase.tblPersonnage[idPerso].CategorieTaille].Nom;
+	perso["Taille"] = dataBase.tblPersonnage[idPerso].Taille;
+	perso["Genre"] = dataBase.tblPersonnage[idPerso].Genre;
+	perso["Age"] = dataBase.tblPersonnage[idPerso].Age;
+	perso["Poids"] = dataBase.tblPersonnage[idPerso].Poids;
+	perso["Yeux"] = dataBase.tblPersonnage[idPerso].Yeux;
+	perso["Cheveux"] = dataBase.tblPersonnage[idPerso].Cheveux;
 	
 	return perso;
 	
@@ -293,7 +293,7 @@ this.vueResumePerso = function(idPerso)
 }
 
 function validerCaracteristiques(objetCaracteristiques){
-	if(!validId("tblPerso", objetCaracteristiques.Personnage)){
+	if(!validId("tblPersonnage", objetCaracteristiques.Personnage)){
 		console.log("Habiletés inexistantes");
 		return false;
 	}
@@ -500,7 +500,7 @@ this.nbPersoParClasse = function()
 	//Retourne le nb de personnages de chaque classe
 	var dataBase = JSON.parse(localStorage.getItem("DB"));
 	var classes = dataBase.tblClasse;
-	var persos = dataBase.tblPerso;
+	var persos = dataBase.tblPersonnage;
 	var resultat = [];
 	
 	for(var i = 0; i < classes.length; i++)
@@ -517,7 +517,7 @@ this.nbPersoParClasse = function()
 
 function validerPerso(perso){
 	// Valide que la structure de l'objet perso correspond à ce qui est attendu par la BD
-	// Voir le commentaire dans tblPerso pour la structure à respecter
+	// Voir le commentaire dans tblPersonnage pour la structure à respecter
 	var db = JSON.parse(localStorage.getItem("DB"));
 	
 	if(perso["Nom"] === null){
@@ -583,7 +583,7 @@ function validerPerso(perso){
 	return true;
 }
 
-this.creerPerso = function(nom, idDivinite, idAlignement, idClasse, niveau, idRace, genre, age, idCategorieTaille, taille, poids, langues, yeux, cheveux, idJoueur)
+this.creerPerso = function(nom, idDivinite, idAlignement, idClasse, niveau, idRace, genre, age, idCategorieTaille, taille, poids, Langues, yeux, cheveux, idJoueur)
 {	
 	// Permet de créer un personnage
 	var db = JSON.parse(localStorage.getItem("DB"));
@@ -600,26 +600,26 @@ this.creerPerso = function(nom, idDivinite, idAlignement, idClasse, niveau, idRa
 		CategorieTaille: idCategorieTaille,
 		Taille: taille,
 		Poids: poids,
-		Langues: langues,
+		Langues: Langues,
 		Yeux: yeux,
 		Cheveux: cheveux,
 		Joueur: idJoueur	
 	};
 	
 	if(validerPerso(objetPerso)){
-		db.tblPerso.push(objetPerso);
+		db.tblPersonnage.push(objetPerso);
 		localStorage.setItem("DB", JSON.stringify(db));
 	}
 }
 
-this.modifierPerso = function(idPerso, nom, idDivinite, idAlignement, idClasse, niveau, idRace, genre, age, idCategorieTaille, taille, poids, langues, yeux, cheveux, idJoueur)
+this.modifierPerso = function(idPerso, nom, idDivinite, idAlignement, idClasse, niveau, idRace, genre, age, idCategorieTaille, taille, poids, Langues, yeux, cheveux, idJoueur)
 {
 	// Permet de modifier un personnage
 	// On devrait plutôt dire "Remplacer un personnage", car on doit spécifier toute la structure
-	// Voir le commentaire dans tblPerso pour la structure à respecter
+	// Voir le commentaire dans tblPersonnage pour la structure à respecter
 	var db = JSON.parse(localStorage.getItem("DB"));
 	
-	if(!validId("tblPerso", idPerso)){
+	if(!validId("tblPersonnage", idPerso)){
 		console.log("L'identifiant n'existe pas")
 	}
 	
@@ -635,14 +635,14 @@ this.modifierPerso = function(idPerso, nom, idDivinite, idAlignement, idClasse, 
 		CategorieTaille: idCategorieTaille,
 		Taille: taille,
 		Poids: poids,
-		Langues: langues,
+		Langues: Langues,
 		Yeux: yeux,
 		Cheveux: cheveux,
 		Joueur: idJoueur	
 	};
 	
 	if(validerPerso(objetPerso)){
-		db.tblPerso[id] = objetPerso;
+		db.tblPersonnage[id] = objetPerso;
 		localStorage.setItem("DB", JSON.stringify(db));
 	}
 }
@@ -655,11 +655,11 @@ this.supprimerPerso = function(idPerso)
 	// Dans une BD normale, on aurait probablement un champ "Actif", qu'on devrait vérifier avant de lister les personnages
 	var db = JSON.parse(localStorage.getItem("DB"));
 	
-	if(db.tblPerso[idPerso] === null){
+	if(db.tblPersonnage[idPerso] === null){
 		console.log("Identifiant invalide");
 		return;
 	}
-	db.tblPerso[idPerso] = null;
+	db.tblPersonnage[idPerso] = null;
 	// TODO: supprimer armes, armures et caractéristiques associées
 	localStorage.setItem("DB", JSON.stringify(db));
 }
@@ -706,7 +706,7 @@ this.listerRaces = function()
 
 this.listerClasses = function()
 {
-	//Liste toutes les races
+	//Liste toutes les classes
 	var dataBase = JSON.parse(localStorage.getItem("DB"));
 	
 	return dataBase.tblClasse;
