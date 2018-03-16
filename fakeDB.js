@@ -463,7 +463,71 @@ this.retirerArmureDePerso = function(idPerso, idArmure)
 
 this.bonusHabilete = function(idPerso)
 {
-	//??
+	// Retourne le bonus pour chaque habilité du personnage selon son score
+	var bonus = {};
+	var db = JSON.parse(localStorage.getItem("DB"));
+	var habilitesPerso = db.tblCaracteristiques[idPerso];
+	
+	if(habilitesPerso === null){
+		console.log("Identifiant invalide");
+		return null;
+	}
+	
+	for(var champ in habilitesPerso )
+	{
+		//Valeur minimale d'une habilité: 1 (3d6 - 2 de modificateur)
+		//Valeur maximale d'une habilité: 20 (3d6 + 2 de modificateur)
+		if(champ !== "Personnage" && champ !== "Competences")
+		{
+			if(habilitesPerso[champ] == 1)
+			{
+				bonus[champ] = -5;
+			}
+			else if(habilitesPerso[champ] < 4)
+			{
+				bonus[champ] = -4;
+			}
+			else if(habilitesPerso[champ] < 6)
+			{
+				bonus[champ] = -3;
+			}
+			else if(habilitesPerso[champ] < 8)
+			{
+				bonus[champ] = -2;
+			}
+			else if(habilitesPerso[champ] < 10)
+			{
+				bonus[champ] = -1;
+			}
+			else if(habilitesPerso[champ] < 12)
+			{
+				bonus[champ] = 0;
+			}
+			else if(habilitesPerso[champ] < 14)
+			{
+				bonus[champ] = 1;
+			}
+			else if(habilitesPerso[champ] < 16)
+			{
+				bonus[champ] = 2;
+			}
+			else if(habilitesPerso[champ] < 18)
+			{
+				bonus[champ] = 3;
+			}
+			else if (habilitesPerso[champ] < 20)
+			{
+				bonus[champ] = 4;
+			}
+			else
+			{
+				bonus[champ] = 5;
+			}
+		}
+	}
+	
+	return bonus;
+	
 }
 
 this.totalAC = function(idPerso)
